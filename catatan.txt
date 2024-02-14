@@ -6,3 +6,22 @@ Passwd : M44rmuTT&
 10.150.49.112
 
 C_COJ096M41_PANBIL
+
+
+cmedit set SubNetwork=AXE,MeContext=BPAR2,ManagedElement=BPAR2,BscFunction=1,BscM=1,GeranCellM=1,GeranCell=COJ074A,PhysicalData=1 latitude:N0-18-17.640 longitude:E100-004-45.804
+cmedit set SubNetwork=AXE,MeContext=BPAR2,ManagedElement=BPAR2,BscFunction=1,BscM=1,GeranCellM=1,GeranCell=COJ074B,PhysicalData=1 latitude:N0-18-17.640 longitude:E100-004-45.804
+cmedit set SubNetwork=AXE,MeContext=BPAR2,ManagedElement=BPAR2,BscFunction=1,BscM=1,GeranCellM=1,GeranCell=COJ074C,PhysicalData=1 latitude:N0-18-17.640 longitude:E100-004-45.804
+
+cmedit set SubNetwork=AXE,MeContext=BVBTM1,ManagedElement=BVBTM1,BscFunction=1,BscM=1,GeranCellM=1,GeranCell=COJ096A,PhysicalData=1 latitude:N1-4-36.580 longitude:E104-001-13.573
+cmedit set SubNetwork=AXE,MeContext=BVBTM1,ManagedElement=BVBTM1,BscFunction=1,BscM=1,GeranCellM=1,GeranCell=COJ096B,PhysicalData=1 latitude:N1-4-36.580 longitude:E104-001-13.573
+cmedit set SubNetwork=AXE,MeContext=BVBTM1,ManagedElement=BVBTM1,BscFunction=1,BscM=1,GeranCellM=1,GeranCell=COJ096C,PhysicalData=1 latitude:N1-4-36.580 longitude:E104-001-13.573
+
+
+cmedit set SubNetwork=AXE,MeContext=BVBTM1,ManagedElement=BVBTM1,BscFunction=1,BscM=1,GeranCellM=1,GeranCell=BTM046E,PhysicalData=1 latitude:N1-2-29.868 longitude:E103-058-57.144
+cmedit set SubNetwork=AXE,MeContext=BVBTM1,ManagedElement=BVBTM1,BscFunction=1,BscM=1,GeranCellM=1,GeranCell=BTM046A,PhysicalData=1 latitude:N1-2-29.868 longitude:E103-058-57.144
+
+
+
+
+
+
