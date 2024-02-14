@@ -6,24 +6,24 @@ crn BtsFunction=1
 userLabel N-BTM046IG1-SP-Plaza-Batu-Aji
 end
 
-crn BtsFunction=1,GsmSector=BTM046A
-userLabel N-BTM046IG1-SP-Plaza-Batu-Aji_IG01
+crn BtsFunction=1,GsmSector=BTM046E
+userLabel N-BTM046MD1-SP-Plaza-Batu-Aji_MD01
 end
 
-crn BtsFunction=1,GsmSector=BTM046A,AbisIp=1
+crn BtsFunction=1,GsmSector=BTM046E,AbisIp=1
 administrativeState 1
 bscBrokerIpAddress 10.141.148.131
 dscpSectorControlUL 46
-gsmSectorName BTM046A
+gsmSectorName BTM046E
 initialRetransmissionPeriod 1
-ipv4Address Router=vr_Abis,InterfaceIPv4=Traffic,AddressIPv4=1
+ipv4Address Router=vr_Abis,InterfaceIPv4=Abis,AddressIPv4=1
 keepAlivePeriod 1
 maxRetransmission 5
 retransmissionCap 4
 userLabel
 end
 
-crn BtsFunction=1,GsmSector=BTM046A,Trx=0
+crn BtsFunction=1,GsmSector=BTM046E,Trx=0
 administrativeState 1
 arfcnMax 25
 arfcnMin 975
@@ -33,16 +33,16 @@ frequencyBand 8
 noOfRxAntennas 2
 noOfTxAntennas 1
 reservedMaxTxPower
-rfBranchRxRef Equipment=1,AntennaUnitGroup=7,RfBranch=7A Equipment=1,AntennaUnitGroup=7,RfBranch=7B
-rfBranchTxRef Equipment=1,AntennaUnitGroup=7,RfBranch=7A
+rfBranchRxRef Equipment=1,AntennaUnitGroup=1,RfBranch=1A Equipment=1,AntennaUnitGroup=1,RfBranch=1B
+rfBranchTxRef Equipment=1,AntennaUnitGroup=1,RfBranch=1A
 rxImbAlarmThreshold 60
 rxImbMinNoOfSamples 7000
 rxImbSupWindowSize 288
-sectorEquipmentFunctionRef SectorEquipmentFunction=7
+sectorEquipmentFunctionRef SectorEquipmentFunction=1
 userLabel
 end
 
-crn BtsFunction=1,GsmSector=BTM046A,Trx=1
+crn BtsFunction=1,GsmSector=BTM046E,Trx=1
 administrativeState 1
 arfcnMax 25
 arfcnMin 975
@@ -52,16 +52,16 @@ frequencyBand 8
 noOfRxAntennas 2
 noOfTxAntennas 1
 reservedMaxTxPower
-rfBranchRxRef Equipment=1,AntennaUnitGroup=7,RfBranch=7A Equipment=1,AntennaUnitGroup=7,RfBranch=7B
-rfBranchTxRef Equipment=1,AntennaUnitGroup=7,RfBranch=7B
+rfBranchRxRef Equipment=1,AntennaUnitGroup=1,RfBranch=1A Equipment=1,AntennaUnitGroup=1,RfBranch=1B
+rfBranchTxRef Equipment=1,AntennaUnitGroup=1,RfBranch=1B
 rxImbAlarmThreshold 60
 rxImbMinNoOfSamples 7000
 rxImbSupWindowSize 288
-sectorEquipmentFunctionRef SectorEquipmentFunction=7
+sectorEquipmentFunctionRef SectorEquipmentFunction=1
 userLabel
 end
 
-crn BtsFunction=1,GsmSector=BTM046A,Trx=2
+crn BtsFunction=1,GsmSector=BTM046E,Trx=2
 administrativeState 1
 arfcnMax 25
 arfcnMin 975
@@ -71,11 +71,11 @@ frequencyBand 8
 noOfRxAntennas 2
 noOfTxAntennas 1
 reservedMaxTxPower
-rfBranchRxRef Equipment=1,AntennaUnitGroup=7,RfBranch=7A Equipment=1,AntennaUnitGroup=7,RfBranch=7B
-rfBranchTxRef Equipment=1,AntennaUnitGroup=7,RfBranch=7B
+rfBranchRxRef Equipment=1,AntennaUnitGroup=1,RfBranch=1A Equipment=1,AntennaUnitGroup=1,RfBranch=1B
+rfBranchTxRef Equipment=1,AntennaUnitGroup=1,RfBranch=1B
 rxImbAlarmThreshold 60
 rxImbMinNoOfSamples 7000
 rxImbSupWindowSize 288
-sectorEquipmentFunctionRef SectorEquipmentFunction=7
+sectorEquipmentFunctionRef SectorEquipmentFunction=1
 userLabel
 end
